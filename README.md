@@ -7,14 +7,14 @@ A deliberately vulnerable JavaScript + Express website demonstrating
 
 ## Demo Video
 
-📹 [Watch Demo Video](YOUR_DEMO_VIDEO_LINK_HERE)
+📹 [Watch Demo Video](https://drive.google.com/file/d/1Om2nDQ34dkrHcVMnxjlh1KbEQm6A8XbR/view?usp=sharing
 
 
 ## Run
 
 ```bash
-pnpm install
-pnpm start
+pnpm install or npm install
+pnpm start or npm start
 ```
 
 Open:

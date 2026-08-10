@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Data Exposure Demo</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="card">
+    <p class="tag">SECURITY DEMO</p>
+    <h1>Excessive Data Exposure</h1>
+    <p class="description">
+      The page only displays a user's name and email, but the backend API
+      returns the user's complete internal record.
+    </p>
+
+    <section class="profile">
+      <div>
+        <span>Name</span>
+        <strong id="name">Loading...</strong>
+      </div>
+      <div>
+        <span>Email</span>
+        <strong id="email">Loading...</strong>
+      </div>
+    </section>
+
+    <button id="inspect">Inspect API Response</button>
+
+    <pre id="response"></pre>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
